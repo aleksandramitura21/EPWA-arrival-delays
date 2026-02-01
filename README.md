@@ -39,6 +39,7 @@ Technologie:
 ---
 
 ## Struktura projektu
+
 scripts/
 ├── etl.py                  # ETL: CSV → Silver (daily)
 ├── eda_basic.py            # Podstawowa EDA
@@ -47,8 +48,9 @@ scripts/
 ├── model_validation.py     # Walidacja modelu
 ├── model_interpretation.py # Interpretacja modelu
 ├── forecast_2026.py        # Prognoza opóźnień 2026
-├── make_plots.py           # Wykresy do raportu
-└── export_forecast_2026_csv.py
+└── report_export.py       # Wykresy do raportu
+raport/
+└──  Raport.pdf             # Raport z projektu
 ---
 
 ## Dane
