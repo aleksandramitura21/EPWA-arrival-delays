@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Spark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# AWS / credentials
+.aws/
+*.pem
+*.key
+
+# Data (NIE WRZUCAMY DANYCH!)
+data/
+*.csv
+*.parquet
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
