@@ -39,7 +39,7 @@ Technologie:
 ---
 
 ## Struktura projektu
-
+```
 scripts/
 ├── etl.py                  # ETL: CSV → Silver (daily)
 ├── eda_basic.py            # Podstawowa EDA
@@ -51,6 +51,7 @@ scripts/
 └── report_export.py       # Wykresy do raportu
 raport/
 └──  Raport.pdf             # Raport z projektu
+```
 ---
 
 ## Dane
